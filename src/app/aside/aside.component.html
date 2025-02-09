@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="main">
+        <div class="huesped">
+            <p>HUÉSPEDES</p>
+            <p>NOCHES</p>
+        </div>
+        <div class="huesp-control">
+            <div id="button1">
+                <button id="button-rest-h" (click)="restaHuesped()">-</button>
+                <p [innerHTML]="huesped" id="huesped"></p>
+                <button id="button-suma-h" (click)="sumaHuesped()">+</button>
+            </div>
+            <div id="button1">
+                <button (click)="restaNoche()">-</button>
+                <p [innerHTML]="noche"></p>
+                <button (click)="sumaNoche()">+</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h3>EXTRAS</h3>
+    <form class="list">
+        <input (click)="extraMascota()" type="checkbox" name="" id="checkbox-1"><p>+ MASCOTA $250 MXN</p>
+        <input (click)="extraCalef()" type="checkbox" name="" id="checkbox-2"><p>+ CALEFACCIÓN $500 MXN</p>
+        <input (click)="extraMont()" type="checkbox" name="" id="checkbox-3"><p>+ RUTA DE MONTAÑA $150 MXN</p>
+        <input (click)="extraSend()" type="checkbox" name="" id="checkbox-4"><p>+ SENDERISMO $200 MXN</p>
+        <input (click)="extraCasc()" type="checkbox" name="" id="checkbox-5"><p>+ VISITA A LA CASCADA $50 MXN</p>
+    </form>
+    <hr class="hr-2">
+    <div class="total">
+        <h3>TOTAL CON IMPUESTOS</h3>
+        <h3 id="total-pesos">${{total}} MXN</h3>
+    </div>
+    <div class="reserva">
+        <button (click)="reservar()">Reservar</button>
+    </div>
+</div>

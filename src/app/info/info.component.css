@@ -1,0 +1,22 @@
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+h2{
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+i{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: 9px;
+}
+
+.iconos li{
+    display: flex;
+}

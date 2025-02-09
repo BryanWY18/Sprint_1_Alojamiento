@@ -1,0 +1,101 @@
+.container{
+    margin: 30px 40px;
+    width: 100%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.main{
+    padding: 10px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.huesped{
+    color: #F27C38;
+    font-weight: bolder;
+    margin: 0px 30px;
+}
+
+.huesp-control{
+    margin: -5px 30px;
+}
+
+.huesp-control div{
+    margin: 10px 0px;
+}
+
+.huesped p{
+    padding: 10px 0px;
+}
+
+#button1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button1 p{
+    font-weight: bolder;
+    margin: 5px 10px;
+}
+
+#button1 button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;;
+}
+
+#button1 button:hover{
+    background-color: #9e9e9d;;
+    cursor: pointer;
+}
+
+hr{
+    margin: 0px 30px;
+}
+
+h3{
+    margin: 0px 30px;
+}
+
+.list{
+    text-align: start;
+    margin: 20px 40px;
+}
+
+.list p{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.hr-2{
+    margin: 20px 30px;
+}
+
+.total{
+    margin: 30px 0px;
+    display: flex;
+}
+
+.total h3{
+    margin: 0px 20px;
+}
+
+.reserva button{
+    border-radius: 5px;
+    padding: 10px 120px ;
+    width: 80%;
+    background-color: #DDDDDD;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    margin: 0px 0px 45px 40px;
+}
+
+.reserva button:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    background-color: #8b8888;;
+    cursor: pointer;
+}

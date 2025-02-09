@@ -1,0 +1,38 @@
+.container{
+    background-color: #F2F2F2;
+    padding: 60px 0px 1px 0px;
+    margin: 0px 0px -150px 0px;
+    
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.reglas{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+
+.puntos{
+    list-style: none;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+.puntos li{
+    margin: 15px 0px;
+}
+
+.puntos a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+    font-weight: bolder;
+}

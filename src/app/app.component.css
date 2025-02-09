@@ -1,0 +1,13 @@
+.main-container{
+    display: flex;
+    max-width: 100%;
+}
+
+#fotos{
+    margin: 10px 10px;
+    width: 60%;
+}
+
+#aside{
+    width: 32%;
+}

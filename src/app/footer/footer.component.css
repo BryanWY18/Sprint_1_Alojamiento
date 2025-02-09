@@ -1,0 +1,41 @@
+.footer{
+    background-color: #262626;
+    color: white;
+}
+
+.container{
+    display: flex;
+    margin: 0px 210px;
+    padding: 37px 10px;
+
+}
+
+.info{
+    margin: 0px 30px 3px 30px;
+}
+
+.info button{
+    margin: 10px auto;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+}
+
+.info button:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    background-color: #8b8888;;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+   font-weight: 300;
+   font-size: 15px; 
+   margin-top: 15px;
+}
+

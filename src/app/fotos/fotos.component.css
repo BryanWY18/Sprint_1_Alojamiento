@@ -1,0 +1,33 @@
+.main-fotos{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.main-fotos img{
+    width: 80%;
+}
+
+.reel{
+    padding: 20px 0px;
+    filter: brightness(1.2) contrast(0.5) grayscale(1.5);
+}
+
+.reel img:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    color: #6d6b6b;;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.4s ease, font-size 0.4s ease;
+}
+
+.reel img {
+    width: 13%;
+    height: 13vh;
+    margin: 0 7px;
+    border-radius: 10px;
+}
+
+.img-main{
+    height: 70vh;
+    border-radius: 10px;
+}

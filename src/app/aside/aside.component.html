@@ -24,7 +24,7 @@
         <input (click)="extraCalef()" type="checkbox" name="" id="checkbox-2"><p>+ CALEFACCIÓN $500 MXN</p>
         <input (click)="extraMont()" type="checkbox" name="" id="checkbox-3"><p>+ RUTA DE MONTAÑA $150 MXN</p>
         <input (click)="extraSend()" type="checkbox" name="" id="checkbox-4"><p>+ SENDERISMO $200 MXN</p>
-        <input (click)="extraCasc()" type="checkbox" name="" id="checkbox-5"><p>+ VISITA A LA CASCADA $50 MXN</p>
+        <input type="checkbox" [(ngModel)]="isChecked" (change)="extraCasc_1()" name="isChecked" id="checkbox-5"><p>+ VISITA A LA CASCADA $50 MXN</p>
     </form>
     <hr class="hr-2">
     <div class="total">

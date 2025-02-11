@@ -13,9 +13,8 @@ export class AsideComponent {
   total:number=1500;
   huesped:number=1;
   noche:number=1;
-  checkbox:boolean=false;
   mascota:number=250;
-  nombre:string="";
+  isChecked:boolean=false;
     
   restaHuesped():void{
     this.huesped=this.huesped-1;
@@ -72,15 +71,26 @@ export class AsideComponent {
           this.total-=200;
         }
     }
-
-    extraCasc(){
-      let checkbox=document.getElementById("checkbox-5")as HTMLInputElement;
-        if(checkbox.checked){
-          this.total+=50;
-        }else{
-          this.total-=50;
-        }
+  
+    extraCasc_1(){
+      if (this.isChecked==true){
+        (this.total+=50);
+      } else {
+        (this.total-=50);
+      }
+     }
+  
+  /*
+  get totalFinal():number{
+    console.log(this.isChecked)
+    let total=this.total;
+    if(this.isChecked==true){
+      console.log(this.isChecked)
+      total+=50;
     }
+    return total
+  }
+  */
 
   reservar(){
     alert("¡¡Felicidades, has completado la reservación!!");

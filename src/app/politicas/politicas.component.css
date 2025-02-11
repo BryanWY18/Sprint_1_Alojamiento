@@ -33,6 +33,7 @@ h2{
 .puntos a{
     text-decoration: none;
     text-decoration: underline;
+    text-decoration-thickness: 2.5px;
     color: black;
     font-weight: bolder;
 }
